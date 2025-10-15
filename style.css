@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background: #222;
+  color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+#theme-toggle {
+  padding: 0.5em 1em;
+}
+
+#counter-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+#counter {
+  font-size: 2em;
+  min-width: 2em;
+  text-align: center;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0.5em;
+  background: #e6e6e6;
+  margin-bottom: 1em;
+}
+
+body.dark-mode .faq-answer {
+  background: #444;
+}
+
+.faq-item {
+  margin-bottom: 1em;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+#form-success {
+  color: green;
+  margin-top: 1em;
+  font-weight: bold;
+}
